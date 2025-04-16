@@ -1,0 +1,54 @@
+body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 800px;
+    aspect-ratio: 3 / 2;
+    
+  }
+  
+  .tarjeta > div {
+    display: flex;
+    align-items: center;  
+    font-size: 30px;
+  }
+  
+ 
+  .header {
+    background-color: black;
+    color: white;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cuerpo {
+    background-color: white;
+    color: #333;
+    flex: 3;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+
+  .footer {
+    background-color: #ccc;
+    color: white;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+  

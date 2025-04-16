@@ -1,0 +1,42 @@
+body {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .tarjeta {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+  }
+  
+  .columna-izquierda {
+    background-color: teal;
+    flex: 2;
+    color: white;
+    padding: 10px;
+  }
+  
+  .columna-derecha {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .parte-alta,
+  .parte-baja {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
